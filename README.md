@@ -67,6 +67,8 @@ upyun: {
 
 由于在开发测试时发现，直接从系统临时文件目录中读取上传的图片时偶尔出现读取不完整的情况，因此，首先从系统临时目录将上传的文件复制到 `content/images` 目录下面，然后再上传到CDN，最后将系统临时目录和 `content/images` 目录下的文件删除。
 
+[Ghost中文网](http://www.ghostchina.com/)
+
 ------------------------
 
 # [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://travis-ci.org/TryGhost/Ghost.png?branch=master)](https://travis-ci.org/TryGhost/Ghost)
