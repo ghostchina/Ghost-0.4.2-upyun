@@ -67,6 +67,12 @@ upyun: {
 
 由于在开发测试时发现，直接从系统临时文件目录中读取上传的图片时偶尔出现读取不完整的情况，因此，首先从系统临时目录将上传的文件复制到 `content/images` 目录下面，然后再上传到CDN，最后将系统临时目录和 `content/images` 目录下的文件删除。
 
+## 版权协议
+
+- 由 Ghost中文网 编写的代码版权归 Ghost中文网 所有，全部代码遵循 [MIT license](LICENSE)。
+- 由 Ghost Foundation 编写的代码版权归 Ghost Foundation 所有，并遵循原项目协议，[MIT license](LICENSE)。
+- 由 又拍云 编写的 Node.js SDK 版权归又拍云所有，未明确是否遵循开源协议！
+
 [Ghost中文网](http://www.ghostchina.com/)
 
 ------------------------
