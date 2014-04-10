@@ -67,6 +67,13 @@ upyun: {
 
 由于在开发测试时发现，直接从系统临时文件目录中读取上传的图片时偶尔出现读取不完整的情况，因此，首先从系统临时目录将上传的文件复制到 `content/images` 目录下面，然后再上传到CDN，最后将系统临时目录和 `content/images` 目录下的文件删除。
 
+## 有用的资源
+
+- [在阿里云服务器上安装 Ghost （1）-- 安装 Node.js](http://www.ghostchina.com/install-ghost-on-ali-ecs-first-step-install-node-js/)
+- [在阿里云服务器上安装 Ghost （2）-- 安装 Nginx](http://www.ghostchina.com/install-ghost-on-ali-ecs-second-step-install-nginx/)
+- [在阿里云服务器上安装 Ghost （3）-- 安装 MySQL](http://www.ghostchina.com/install-ghost-on-ali-ecs-third-step-install-mysql/)
+- [在阿里云服务器上安装 Ghost （4）-- 安装 Ghost](http://www.ghostchina.com/install-ghost-on-ali-ecs-forth-step-install-ghost/)
+
 ## 版权协议
 
 - 由 Ghost中文网 编写的代码版权归 Ghost中文网 所有，全部代码遵循 [MIT license](LICENSE)。
